@@ -1,0 +1,45 @@
+# ⛔ فایل‌های پایتون
+__pycache__/
+*.py[cod]
+*.so
+
+# 🐍 محیط مجازی (virtual environment)
+env/
+venv/
+ENV/
+.venv/
+
+# 🔐 متغیرهای محیطی حساس
+.env
+.env.*
+
+# 💽 پایگاه‌داده SQLite (پیش‌فرض Django)
+*.sqlite3
+
+# 📑 لاگ‌ها
+*.log
+
+# 🧪 تست و کاور
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# 📦 فایل‌های build و پکیج
+build/
+dist/
+*.egg-info/
+
+# 📄 VS Code
+.vscode/
+*.code-workspace
+
+# 📂 فایل‌های موقتی و سیستمی
+*.tmp
+*.bak
+*.swp
+*~
+
+# 🚫 کش pip
+pip-wheel-metadata/
+__pypackages__/

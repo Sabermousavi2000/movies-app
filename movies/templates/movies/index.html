@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1>My fave Movies!</h1>
+        {% if movies %}
+            <ul>
+                {% for movie in movies %}
+                    <li>{{ movie|title }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>There is no fave film...</p>
+        {% endif %}
+    </body>
+</html>
